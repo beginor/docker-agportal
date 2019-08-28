@@ -9,7 +9,7 @@ RUN /tmp/0_base_system.sh
 # Switch to arcgis and install ArcGIS for Portal
 USER arcgis
 ENV HOME /arcgis
-ENV LICENSE_FILE=/arcgis/agp106.ecp
+ENV LICENSE_FILE=/arcgis/agp107.ecp
 RUN /tmp/1_install_agportal.sh
 
 ENTRYPOINT ["/usr/bin/docker_entry_point.sh"]
